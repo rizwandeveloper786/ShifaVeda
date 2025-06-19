@@ -16,6 +16,13 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
+        <head>
+      
+
+        {/* Favicon */}
+        <link rel="icon" href="/images/ShifaVeda192x192.png" type="image/x-icon" />
+        <title>ShifaVeda</title>
+      </head>
       <body className={`${inter.className} ${noto.className}`}>
         <Header />
         <Navbar />
